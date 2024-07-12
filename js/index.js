@@ -1,4 +1,4 @@
-// 1 misol
+// 1 misol Domla shuni 7,8 larni qilib ole tekshirme turin iltimos
 
 // let obj = {a: 2, b: 3, c: 4}
 // let n = 3
@@ -89,3 +89,18 @@
 // console.log(arr , obj)
 
 // 5 misol
+
+// 6 misol
+
+const people = [
+    { name: 'John', age: 13 },
+    { name: 'Mark', age: 56 },
+    { name: 'Rachel', age: 45 },
+    { name: 'Nate', age: 67 },
+    { name: 'Jeniffer', age: 65 }
+  ];
+  
+people.sort((a,b)=> a.age - b.age )
+
+let youngest = people[0]
+let oldest = [people.length - 1 ]
