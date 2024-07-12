@@ -1,4 +1,4 @@
-// 1 misol Domla shuni 7,8 larni qilib ole tekshirme turin iltimos
+// 1 misol 
 
 // let obj = {a: 2, b: 3, c: 4}
 // let n = 3
@@ -92,15 +92,53 @@
 
 // 6 misol
 
-const people = [
-    { name: 'John', age: 13 },
-    { name: 'Mark', age: 56 },
-    { name: 'Rachel', age: 45 },
-    { name: 'Nate', age: 67 },
-    { name: 'Jeniffer', age: 65 }
-  ];
+// const people = [
+//     { name: 'John', age: 13 },
+//     { name: 'Mark', age: 56 },
+//     { name: 'Rachel', age: 45 },
+//     { name: 'Nate', age: 67 },
+//     { name: 'Jeniffer', age: 65 }
+//   ];
   
-people.sort((a,b)=> a.age - b.age )
+// people.sort((a,b)=> a.age - b.age );
 
-let youngest = people[0]
-let oldest = [people.length - 1 ]
+// let youngest = people[0]
+// let oldest = [people.length - 1 ]
+
+// const ageDifference = oldest.age - youngest.age;
+
+// console.log(`Eng yosh : ${youngest.name}, yoshi : ${youngest.age}`)
+// console.log(`Eng qari : ${oldest.name}, yoshi : ${oldest.age}`)
+// console.log(`Eng qari va eng yosh odamning yosh farqlari : 54`)
+
+// 7 misol
+
+// let arr = [false, 1, 10, "", null, "sultonqul", 1.13, 0]
+// let truthyArr = arr.filter(value => value);
+// console.log(`truthy: ${truthyArr}`)
+// let falthyArr = arr.filter(value => !value);
+// console.log(`falthy: ${falthyArr}`)
+// getTruthyFalthy()
+
+// 8 misol
+
+// function minMaxWord(str) {
+//     let words = str.split(' ');
+//     let minWord = words[0];
+//     let maxWord = words[0];
+
+//     for (let i = 1; i < words.length; i++) {
+//         if (words[i].length < minWord.length) {
+//             minWord = words[i];
+//         }
+//         if (words[i].length > maxWord.length) {
+//             maxWord = words[i];
+//         }
+//     }
+
+//     return { minWord: minWord, maxWord: maxWord };
+// }
+
+// let exampleString = "Men dasturlash kursida o'qiyman";
+// let result = minMaxWord(exampleString);
+// console.log(result); 
